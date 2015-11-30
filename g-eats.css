@@ -1,0 +1,89 @@
+body {
+	background-image: url("../galvanize-eats/restaurant-hero-image.jpg"); 	
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+nav {
+	text-align: left;
+	max-width: auto;
+	background-color: black;
+	margin: 0;
+	padding: 10px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: medium;
+	letter-spacing: 1px;
+	
+}
+
+.tagLine {
+	width:390px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 300px;
+	padding-top: 100px;
+	float: relative;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 29px;
+  background: #65bf83;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+h1 {
+	color: white;
+}
+
+p {
+	width: 18em;
+	text-align: justify;
+}
+p:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+
+#box1 {
+width: 300px;
+padding: 10px;
+margin: 0px;
+display: inline-block;
+
+}
+#box2 {
+	width: 300px;
+	padding: 10px;
+	margin: 0px;
+	display: inline-block;
+
+}
+#box3 {
+	width: 300px;
+	padding: 10px;
+	margin: 0px;
+	display: inline-block;
+
+}
+
+footer {
+	max-width: auto;
+	background-color: black;
+	margin: 0;
+	padding: 10px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: medium;
+	letter-spacing: 1px;
+	
+}
