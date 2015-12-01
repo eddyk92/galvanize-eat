@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="g-eats2.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<nav> 
+    	<ul> 
+    		<font color="white">
+    			<h3>Galvanize Eats</h3>
+    		</font>
+    	</ul>
+    </nav>	
+
+</head>
+<body>
+
+<div class="menubox">
+
+	<form action= "" id="eats" onsubmit="return false;">
+	
+	<fieldset>
+	<!-- <div class = box> -->
+			<p><br>
+			<select name= "Burgers" multiple="multiple">
+				<option value="10.99">Cheeseburger	10.99</option>
+				<option value="8.99">Hamburger	8.99</option>
+				<option value="9.99">Cheese Pizza	9.99</option>
+				<option value="11.99">Pepperoni	11.99</option>
+				<option value="4.99">Hot Dog	4.99</option>
+				<option value="7.99">Chilli Dog	7.99</option>
+
+
+				</select>
+			</p>
+			<!-- </div> -->
+
+		<div id="totalPrice"></div>
+		<button type="buttom"> Add Item</button>
+		<p>
+		Name <input type="text" name="name" required>
+		<br>Phone Number <input type="text" name="phonenumber" required>
+		Address <input type="text" name="address" required>
+		</p>
+
+		<button class="btn" type="button" >Deliver It!</button>
+
+	</fieldset>
+	</form>
+</div>
+
+
+
+<script src="g-eats2.js"></script>
+</body>
+
+<footer>
+	<font color="white">
+		Galvanize, 2015 * San Francisco, California
+	</font>
+</footer>
+
+</html>
